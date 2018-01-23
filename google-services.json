@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "624223538023",
+    "firebase_url": "https://zaheerprojects.firebaseio.com",
+    "project_id": "zaheerprojects",
+    "storage_bucket": "zaheerprojects.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:624223538023:android:7eb723f2a393d320",
+        "android_client_info": {
+          "package_name": "com.moneytracker.android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "624223538023-eu26c08n9al6pne14b3ek553ods82oqv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBP_1ScocoUXBPhYJBOxllzkg2gJ0-bz9A"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:624223538023:android:22b54f745fd03471",
+        "android_client_info": {
+          "package_name": "com.ahmadinfotech.moneytracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "624223538023-eu26c08n9al6pne14b3ek553ods82oqv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBP_1ScocoUXBPhYJBOxllzkg2gJ0-bz9A"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

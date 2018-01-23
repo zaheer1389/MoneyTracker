@@ -1,0 +1,124 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="20dp">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:weightSum="1">
+
+            <com.weiwangcn.betterspinner.library.material.MaterialBetterSpinner
+                android:id="@+id/spinnerLenderId"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:hint="Lender"
+                android:textColorHint="#05ab9a" />
+
+            <EditText
+                android:id="@+id/txtAmount"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_weight="0.05"
+                android:ems="10"
+                android:hint="Amount"
+                android:inputType="numberDecimal" />
+
+            <EditText
+                android:id="@+id/txtTransactionDate"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_weight="0.05"
+                android:ems="10"
+                android:focusable="false"
+                android:hint="Date"
+                android:inputType="date" />
+
+            <EditText
+                android:id="@+id/txtDesc"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_weight="0.05"
+                android:ems="10"
+                android:hint="Description"
+                android:inputType="textMultiLine" />
+
+            <com.weiwangcn.betterspinner.library.material.MaterialBetterSpinner
+                android:id="@+id/spinnerTransactionType"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:hint="Transaction Type"
+                android:textColorHint="#05ab9a" />
+
+            <com.weiwangcn.betterspinner.library.material.MaterialBetterSpinner
+                android:id="@+id/spinnerPaymentMode"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:hint="Payment Mode"
+                android:textColorHint="#05ab9a" />
+
+            <EditText
+                android:id="@+id/txtPaymentAccount"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:ems="10"
+                android:hint="Payment Account"
+                android:inputType="textPersonName" />
+
+            <com.weiwangcn.betterspinner.library.material.MaterialBetterSpinner
+                android:id="@+id/spinnerTransactionCategory"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:hint="Transaction Category"
+                android:textColorHint="#05ab9a" />
+
+            <com.weiwangcn.betterspinner.library.material.MaterialBetterSpinner
+                android:id="@+id/spinnerMerchant"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:hint="Merchant"
+                android:textColorHint="#05ab9a" />
+
+
+            <EditText
+                android:id="@+id/txtMerchantAccount"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:ems="10"
+                android:hint="Merchant Account"
+                android:inputType="textPersonName" />
+
+            <CheckBox
+                android:id="@+id/cbCashbackEarned"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Cashback Earned" />
+
+            <EditText
+                android:id="@+id/txtCashbackAmount"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:ems="10"
+                android:hint="Cashback Amount"
+                android:inputType="numberDecimal" />
+
+            <Button
+                android:id="@+id/btnSave"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:background="@color/colorPrimary"
+                android:text="Save"
+                android:textColor="@android:color/white" />
+
+        </LinearLayout>
+    </ScrollView>
+</android.support.design.widget.CoordinatorLayout>
